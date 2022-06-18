@@ -17,6 +17,6 @@ export default {
             {name: 'Vitor', email: 'vitor@gmail.com'},
             {subject: 'Bem-vindo ao sistema', body: 'Seja bem vindo'}
         );
-        return res.json(emailService);
+        return res.send();
     }
 };
